@@ -1,0 +1,48 @@
+
+{
+  "name": "babylon-voxel-player",
+  "description": "Voxel player for Babylon.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Nesh108/babylon-voxel-player",
+  "main": "index.js",
+  "author": {
+    "name": "Nesh108",
+    "email": "kulplex@gmail.com",
+    "url": "https://github.com/Nesh108"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git:/github.com/Nesh108/babylon-voxel-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nesh108/babylon-voxel-player/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Nesh108/babylon-voxel-player/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "start": "sleep 1 && open http://localhost:8080/ & webpack-dev-server -d --inline --content-base examples/ examples/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "noa-engine": "~0.20.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "peerDependencies": {
+    "noa-engine": "~0.20.0"
+  },
+  "keywords": [
+    "babylon",
+    "babylon.js",
+    "babylonjs",
+    "voxel",
+    "player"
+  ]
+}
